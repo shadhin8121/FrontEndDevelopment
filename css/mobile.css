@@ -1,0 +1,128 @@
+@media only screen and (max-width: 600px) {
+    .headerWithImg-font-awesome-icon {
+        width: 115px;
+        display: inherit;
+    }
+    .headerWithImg-font-awesome-icon :first-child {
+        /* color: white; */
+        display: none;
+    }
+    .headerWithImg-font-mt h2 {
+        color: white;
+        font-size: 23px;
+    }
+    .headerWithImg-font-mt h1 {
+        color: white;
+        font-size: 30px;
+        width: 330px;
+    }
+    .headerWithImg-font-mt {
+        margin-top: -179px;
+        padding: 18px;
+    }
+    .headerWithImg-img-my img {
+        width: 200px;
+        margin-left: -10px;
+    }
+    .headerWithImg-img-my {
+        width: 198px;
+        float: left;
+        /* margin-right: 0px; */
+        margin-left: 160px;
+        margin-top: -94px;
+    }
+    .headerWithImg {
+        height: 297px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .contactwithme {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .contactwithme .first h1 {
+        /* color: white; */
+        font-size: 39px;
+    }
+    .contactwithme .second h1 {
+        width: 60%;
+        height: 0px;
+        color: black;
+        border: 1px solid black;
+        margin: auto;
+        padding: 0px;
+        margin-top: -11px;
+        margin-bottom: -11px;
+    }
+    .progressdhoncontainer1rowtitle h1 {
+        font-size: 30px;
+    }
+    .progressdhoncontainer1row {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 5px;
+    }
+    .progressdhoncontainer1rowsub {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .circle-chart {
+        width: 129px;
+        height: 150px;
+    }
+    .section4title h1 {
+        font-size: 39px;
+        width: 263px;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .section4containers {
+        display: block;
+        width: 100%;
+    }
+    .section4containers .section4containers1 {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 57px auto;
+    }
+    .section4containers .section4containers2 {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 57px auto;
+    }
+    footer.footer h1 {
+        font-size: 14px;
+        color: green;
+        width: 100%;
+        text-align: center;
+    }
+    footer.footer {
+        width: 100%;
+    }
+    .section1 .section2 .section3 .section4 .section5 {
+        padding: 0;
+        margin: 0;
+    }
+    .section5title h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .section5aboutmyself {
+        font-size: 15px;
+        padding: 12px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .clahgjabvabnav {
+        display: none;
+    }
+}

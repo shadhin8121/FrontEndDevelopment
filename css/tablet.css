@@ -1,0 +1,61 @@
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .headerWithImg-font-awesome-icon {
+        display: none;
+    }
+    .headerWithImg-font-mt {
+        margin: 10px;
+        z-index: 1;
+    }
+    .headerWithImg-font-mt h2 {
+        font-size: 44px;
+    }
+    .headerWithImg-font-mt h1 {
+        font-size: 11px;
+    }
+    .headerWithImg-font-mt h1 {
+        font-size: 53px;
+        width: 509px;
+    }
+    .headerWithImg-img-my img {
+        max-width: 90%;
+        margin-top: -28%;
+        margin-left: 20%;
+        /* display: inherit; */
+        /* overflow: hidden; */
+        z-index: -1;
+    }
+    .contactwithme>.first h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .contactwithme>.first p {
+        font-size: 25px;
+        text-align: justify;
+    }
+    .contactwithme>.second h1 {
+        width: 300px;
+        height: 3px;
+        margin-top: 10px;
+        background: green;
+        margin-left: 95px;
+        line-height: 136px;
+        text-align: center;
+    }
+    .progressdhoncontainer1rowtitle h1 {
+        font-size: 45px;
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .progressdhoncontainer1row {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 9px 20px;
+    }
+    .progressdhoncontainer1row .progressdhoncontainer1rowsub {
+        padding: 0px 10px;
+    }
+}

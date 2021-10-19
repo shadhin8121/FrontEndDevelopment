@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Patrick Hand';
+}
+button#topButton {
+    width: 40px;
+    height: 36px;
+    border: none;
+    color: #01d656;
+    background: #060606;
+    
+    right: 170px;
+    bottom: 50px;
+    position: fixed;
+    border-radius: 5px;
+}
+.myImageLogo img {
+    width: 84px;
+}
+
+.mainHeaderWithAllThings {
+    background: linear-gradient(to right, #00800059, #ff00006e);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.menulist {
+    margin-left: auto;
+    text-align: center;
+}
+
+.menulist li a {
+    font-size: 30px;
+    color: black;
+}
+
+.menulist li a:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 990px) {
+    .menulist li:hover {
+        background-color: #ddd;
+        border-radius: 10px;
+    }
+}
+
+.menulist li {
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.headerWithImg {
+    background-image: linear-gradient(to right, #0000005e, #ff000047, #00800069, #ffff0059), url(../image/bakground.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.headerWithImg-font-awesome-icon {
+    font-size: 40px;
+    color: white;
+    padding-top: 190px;
+    text-align: center;
+}
+
+.headerWithImg-font-mt {
+    display: block;
+    height: 170px;
+    padding-top: 165px;
+    color: white;
+}
+
+.headerWithImg-font-mt h2 {
+    font-size: 54px;
+    line-height: 43px;
+}
+
+.headerWithImg-font-mt h1 {
+    font-size: 53px;
+    width: 509px;
+}
+
+.section4containers {
+    margin-bottom: 50px;
+}
+
+.headerWithImg-font-mt h5 {
+    font-size: 23px;
+}
+
+.headerWithImg-font-mt p {
+    width: 205px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.headerWithImg-img-my img {
+    width: 498px;
+}
+
+.contactwithme>.first {
+    padding: 30px 70px;
+}
+
+.contactwithme>.first h1 {
+    font-size: 55px;
+}
+
+.contactwithme>.first p {
+    font-size: 17px;
+}
+
+.contactwithme>.third {
+    padding: 30px 70px;
+}
+
+.contactwithme>.second h1 {
+    width: 1px;
+    height: 136px;
+    margin-top: 40px;
+    background: green;
+    margin-left: 95px;
+    line-height: 136px;
+}
+
+.progressdhoncontainer1row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 9px 20px;
+}
+
+.progressdhoncontainer1row .progressdhoncontainer1rowsub {
+    padding: 0px 85px;
+}
+
+.progressdhoncontainer1rowtitle h1 {
+    font-size: 47px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.progressdhoncontainer1rowtitle h2 {
+    width: 203px;
+    margin: 17px auto;
+    border: 1px solid #50d7ba;
+}
+
+.section4title h1 {
+    padding: 11px;
+    width: 500px;
+    font-size: 60px;
+    margin: auto;
+}
+
+.section4title h1:hover {
+    color: green;
+    transition: 2s;
+}
+
+.section4containers1 h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section4containers2 h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.section4containersmargin {
+    display: inherit;
+    width: auto;
+    margin: auto;
+}
+
+.ajfanfvjabf:hover {
+    animation-name: shadhin;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadhin {
+    0% {
+        color: rgb(248, 249, 228);
+        ;
+    }
+    2% {
+        color: rgb(119, 129, 77);
+        ;
+    }
+    3% {
+        color: rgb(177, 183, 86);
+        ;
+    }
+    4% {
+        color: rgb(128, 3, 113);
+        ;
+    }
+    5% {
+        color: rgb(246, 30, 84);
+    }
+    6% {
+        color: rgb(72, 141, 211);
+    }
+    7% {
+        color: rgb(91, 18, 239);
+    }
+    8% {
+        color: rgb(108, 140, 94);
+    }
+    9% {
+        color: rgb(143, 52, 197);
+    }
+    10% {
+        color: rgb(94, 199, 78);
+    }
+    11% {
+        color: rgb(148, 17, 31);
+    }
+    12% {
+        color: rgb(118, 142, 150);
+    }
+    13% {
+        color: rgb(169, 202, 78);
+    }
+    14% {
+        color: rgb(133, 73, 228);
+    }
+    15% {
+        color: rgb(173, 191, 239);
+    }
+    1% {
+        color: rgb(82, 46, 248);
+    }
+    16% {
+        color: rgb(94, 61, 209);
+    }
+    17% {
+        color: rgb(14, 250, 219);
+    }
+    18% {
+        color: rgb(101, 229, 223);
+    }
+    19% {
+        color: rgb(250, 16, 111);
+    }
+    20% {
+        color: rgb(65, 30, 194);
+    }
+    21% {
+        color: rgb(92, 161, 218);
+    }
+    22% {
+        color: rgb(79, 64, 179);
+    }
+    23% {
+        color: rgb(58, 85, 136);
+    }
+    24% {
+        color: rgb(23, 95, 2);
+    }
+    25% {
+        color: rgb(116, 170, 26);
+    }
+    26% {
+        color: rgb(126, 25, 235);
+    }
+    27% {
+        color: rgb(96, 230, 158);
+    }
+    28% {
+        color: rgb(28, 29, 50);
+    }
+    29% {
+        color: rgb(185, 164, 245);
+    }
+    30% {
+        color: rgb(51, 121, 85);
+    }
+    31% {
+        color: rgb(193, 103, 116);
+    }
+    32% {
+        color: rgb(196, 166, 227);
+    }
+    33% {
+        color: rgb(115, 93, 128);
+    }
+    34% {
+        color: rgb(162, 144, 236);
+    }
+    35% {
+        color: rgb(176, 8, 120);
+    }
+    36% {
+        color: rgb(66, 61, 87);
+    }
+    37% {
+        color: rgb(129, 191, 108);
+    }
+    38% {
+        color: rgb(5, 95, 226);
+    }
+    39% {
+        color: rgb(226, 43, 177);
+    }
+    40% {
+        color: rgb(38, 213, 182);
+    }
+    41% {
+        color: rgb(133, 194, 237);
+    }
+    42% {
+        color: rgb(44, 47, 15);
+    }
+    1% {
+        color: rgb(31, 141, 157);
+    }
+    43% {
+        color: rgb(13, 237, 17);
+    }
+    44% {
+        color: rgb(29, 50, 154);
+    }
+    45% {
+        color: rgb(64, 123, 226);
+    }
+    46% {
+        color: rgb(22, 20, 64);
+    }
+    47% {
+        color: rgb(171, 239, 247);
+    }
+    48% {
+        color: rgb(45, 242, 117);
+    }
+    49% {
+        color: rgb(67, 242, 57);
+    }
+    50% {
+        color: rgb(40, 205, 63);
+    }
+    51% {
+        color: rgb(131, 185, 38);
+    }
+    52% {
+        color: rgb(116, 226, 187);
+    }
+    53% {
+        color: rgb(47, 16, 192);
+    }
+    54% {
+        color: rgb(201, 142, 69);
+    }
+    55% {
+        color: rgb(135, 30, 11);
+    }
+    56% {
+        color: rgb(39, 77, 91);
+    }
+    57% {
+        color: rgb(156, 53, 57);
+    }
+    58% {
+        color: rgb(246, 168, 18);
+    }
+    59% {
+        color: rgb(177, 163, 45);
+    }
+    60% {
+        color: rgb(106, 15, 106);
+    }
+    61% {
+        color: rgb(2, 200, 137);
+    }
+    1% {
+        color: rgb(75, 8, 236);
+    }
+    62% {
+        color: rgb(212, 52, 224);
+    }
+    63% {
+        color: rgb(215, 74, 201);
+    }
+    64% {
+        color: rgb(22, 119, 120);
+    }
+    65% {
+        color: rgb(118, 151, 75);
+    }
+    66% {
+        color: rgb(253, 47, 227);
+    }
+    67% {
+        color: rgb(141, 196, 206);
+    }
+    68% {
+        color: rgb(249, 115, 82);
+    }
+    69% {
+        color: rgb(167, 225, 156);
+    }
+    70% {
+        color: rgb(17, 25, 174);
+    }
+    71% {
+        color: rgb(20, 63, 96);
+    }
+    72% {
+        color: rgb(97, 98, 216);
+    }
+    73% {
+        color: rgb(207, 88, 11);
+    }
+    74% {
+        color: rgb(219, 111, 71);
+    }
+    75% {
+        color: rgb(119, 220, 206);
+    }
+    76% {
+        color: rgb(249, 229, 147);
+    }
+    77% {
+        color: rgb(34, 244, 143);
+    }
+    78% {
+        color: rgb(228, 22, 168);
+    }
+    79% {
+        color: rgb(136, 51, 126);
+    }
+    80% {
+        color: rgb(30, 80, 161);
+    }
+    81% {
+        color: rgb(220, 44, 229);
+    }
+    82% {
+        color: rgb(224, 243, 3);
+    }
+    83% {
+        color: rgb(75, 3, 213);
+    }
+    84% {
+        color: rgb(165, 88, 129);
+    }
+    85% {
+        color: rgb(192, 69, 245);
+    }
+    86% {
+        color: rgb(243, 243, 150);
+    }
+    87% {
+        color: rgb(243, 48, 4);
+    }
+    88% {
+        color: rgb(28, 211, 171);
+    }
+    89% {
+        color: rgb(252, 47, 94);
+    }
+    90% {
+        color: rgb(23, 112, 183);
+    }
+    91% {
+        color: rgb(86, 15, 113);
+    }
+    92% {
+        color: rgb(47, 171, 190);
+    }
+    93% {
+        color: rgb(81, 78, 44);
+    }
+    94% {
+        color: rgb(221, 176, 30);
+    }
+    95% {
+        color: rgb(92, 173, 253);
+    }
+    96% {
+        color: rgb(189, 40, 227);
+    }
+    99% {
+        color: rgb(34, 244, 143);
+    }
+    100% {
+        color: rgb(228, 22, 168);
+    }
+}
+
+.section4containers1 {
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.section4containers2 {
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+.section4title h1 {
+    text-transform: capitalize;
+}
+
+.section4containers2 h3 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section4containers1 h3 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section5title h1 {
+    font-size: 47px;
+    text-transform: capitalize;
+    margin: auto;
+    width: 236px;
+    margin-bottom: 30px;
+}
+
+.section5myphoto img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.section5aboutmyself {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+footer.footer h1 {
+    color: white;
+    font-size: 20px;
+    padding: 3px 10px;
+    width: 354px;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+footer.footer {
+    background: black;
+    /* margin: auto; */
+}
